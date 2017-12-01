@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding>
+ 
+    <h3>Apple: {{apple}}</h3>
+    <h3>Banana: {{banana | async}}</h3>
+ 
+    <button ion-button (click)="setInStorage()">Set Data</button>
+ 
+</ion-content>
